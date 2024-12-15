@@ -1,0 +1,312 @@
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    height: 900px;
+    background-color: #7711DD;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7% 5%;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social{
+    margin-right: 20px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    color: beige;
+    margin-left: 120px;
+}
+
+.text a{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 5px black;
+}
+.text a img{
+    width: 25px;
+    height: 25px;
+}
+
+.text h1{
+    font-size: 50px;
+}
+
+.text p{
+    width: 420px;
+    height: 80px;
+    font-size: 18px;
+    margin: 30px 0;
+}
+#About{
+    height: 400px;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.cards{
+    display: flex;
+    margin: 50px auto;
+    width: 1000px;
+    height: 200px;
+}
+.card{
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 5px black;
+    width: 340px;
+    margin-left: 30px;
+    padding: 20px 0;
+}
+.card img{
+    width: 90px;
+    height: 75px;
+}
+.orange{
+    background-color: #fa6648;
+}
+.pink{
+    background-color: #FFB0BC;
+}
+.yellow{
+    background-color: #FFBD12;
+}
+
+#call{
+    height: 710px;
+    background-color: #7711DD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    font-size: 45px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+#call form input{
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+#call form button{
+    display: inline-block;
+    width: 120px;
+    height: 45px;
+    font-size: 20px;
+    background-color: #FFBD12;
+}
+#stories{
+    text-align: center;
+    padding: 150px 0;
+}
+#stories .cards{
+    height: 300px;
+    align-items: center;
+}  
+.green{
+    background-color: #1BDBC4;
+}
+.purple{
+    background-color: #7711DD;
+}
+#tariff .cards{
+    height: 340px;
+    font-size: 18px;
+}
+#tariff .card button{
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 5px black;
+}
+#tariff{
+    text-align: center;
+}
+#form{
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.download a{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    background-color: #fa6648;
+    color: black;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 5px black;
+}
+.download a img{
+    width: 25px;
+    height: 25px;
+}
+.forma input, button{
+    display: block;
+    margin: 20px 0;
+    border: 1px solid black;
+    box-shadow: 0 5px black;
+    width: 400px;
+    height: 50px;
+    text-align: left;
+}
+.forma{
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 5px black;
+    width: 400px;
+    height: 540px;
+    padding: 50px;
+    
+}
+.forma h3{
+    display: inline-block;
+}
+.check{
+    display: inline;
+}
+
+footer{
+    height: 140px;
+    width: auto;
+    background-color: #7711DD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7% 5%;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 10px;
+    color: antiquewhite;
+    font-size: 20px;
+    
+}
+.button a{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    background-color: #FFBD12;
+    color: black;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 5px black;
+}
+.button a img{
+    width: 25px;
+    height: 25px;
+}
+@media all and (max-width: 640px){
+body{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.img{
+    display: none;
+}
+header{
+   width: 450px;
+    height: 500px;
+}
+.head{
+    margin: 0;
+    justify-content: flex-start;
+}
+.text{
+    margin-left: 50px;
+}
+.text h1{
+    font-size: 24px;
+}
+nav{
+    width: 100%;
+}
+#About{
+    height: 1000px;
+}
+.cards{
+    height: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    overflow: scroll;
+    padding: 0;
+    margin: 0;
+    width: 450px;
+}
+#call{
+    height: 400px;
+    width: 400px;
+}
+h2{
+    font-size: 30px;
+    
+}
+#call form input{
+    display: block;
+    width: 220px;
+    height: 20px;
+    font-size: 16px;
+}
+#call form button{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #FFBD12;
+}
+#call p{
+    font-size: 14px;
+}
+#form{
+    height: 1000px;
+    flex-direction: column;
+
+}
+.forma{
+    width: 350px;
+}
+}
